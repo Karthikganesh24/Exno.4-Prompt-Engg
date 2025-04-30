@@ -1,9 +1,10 @@
 # Exno.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE:30/04/2025                                                                          
+### REGISTER NUMBER : 212223223003
 ### Aim: To design an AI-powered chatbot that assists customers in resolving issues related to product troubleshooting, order tracking, and general inquiries. The chatbot should handle various customer queries efficiently while maintaining a conversational and user-friendly tone. In this experiment, we will employ different prompt patterns to guide the development process of the chatbot, ranging from basic task-oriented prompts to more complex, persona-driven prompts.
 
-### Algorithm:  1. Direct Instruction Prompts
+### Algorithm:  
+1. Direct Instruction Prompts
 Objective: Guide the chatbot to respond concisely to customer inquiries.
 Prompt Pattern:
 Prompt: "When a customer asks for the status of their order, reply with: 'Your order is currently being processed and will be delivered by [date].'"
@@ -41,8 +42,53 @@ Prompt Pattern:
 Prompt: "When a customer asks for help, first reflect their question back to them. For example, if they ask 'How can I reset my password?' respond with 'You're asking how to reset your password, correct? Here’s how you can do it.'"
 Result: The various types of Prompts are executed successfully.
 
+## Scenario
+These professionals focus on building and implementing AI systems and chatbots. They are skilled in programming, machine learning, and natural language processing (NLP).Using Straightforward Prompts, Tabular Format Prompting and Preceding Question Prompting techniques
 
+1. Straightforward Prompts
+Definition: These are simple, direct prompts where the chatbot asks clear, specific questions. This is one of the most basic methods to guide the conversation.
+Example in Chatbot Development:
+•	Scenario: A user wants to troubleshoot a product.
+•	Prompt Example:
+o	Chatbot: “Please describe the issue with your product.”
+o	Chatbot: “Can you provide the product ID for assistance?”
+How the AI/Chatbot Developer Uses It:
+•	The developer will program the chatbot with direct prompts to gather necessary information in a clear, concise manner. This ensures that the conversation doesn't overwhelm the user with unnecessary options or information. It’s perfect for situations where the user needs to provide simple, specific details.
+Benefit: It keeps the interaction simple and efficient, especially for straightforward customer inquiries or tasks.
+________________________________________
+2. Tabular Format Prompting
+Definition: This prompting method involves presenting multiple options in a table or list format, making it easy for the user to select an appropriate choice.
+Example in Chatbot Development:
+•	Scenario: The user wants to check the status of their order or report an issue.
+•	Prompt Example:
+o	Chatbot: “Please select one of the following options to continue:
+	[1] Track my order
+	[2] Report a product issue
+	[3] Speak to customer support”
+How the AI/Chatbot Developer Uses It:
+•	The developer incorporates a structured list or table within the chatbot’s response. This format allows the chatbot to guide users to specific actions, reducing ambiguity.
+•	They can integrate options into the conversation flow so that when a user makes a selection, the chatbot knows exactly how to respond.
+Benefit: It organizes complex tasks into simple steps, making it easier for the user to follow through and complete their query. This approach can be especially useful when there are multiple pathways to choose from.
+________________________________________
+3. Preceding Question Prompting
+Definition: This technique involves asking a question based on the user’s previous answer, guiding them to a more specific response. It’s a method of narrowing down options based on prior interactions.
+Example in Chatbot Development:
+•	Scenario: The user reports a product issue, and the chatbot needs to narrow down the possible causes.
+•	Prompt Example:
+o	Chatbot: “What seems to be the issue with your product?”
+o	User: “The screen is cracked.”
+o	Chatbot: “Was the product damaged during delivery?”
+o	User: “Yes, it was.”
+o	Chatbot: “We can assist you with a return. Would you like to initiate a return request now?”
 
+How the AI/Chatbot Developer Uses It:
+•	The developer ensures that the chatbot uses previous user responses to tailor its next question or action. This requires programming the chatbot to track the flow of the conversation and ask relevant follow-up questions based on context.
+•	The chatbot needs to be able to dynamically adjust its questions based on the user’s responses, which requires implementing conditional logic and state management.
+Benefit: It makes the conversation more personalized and efficient by gathering detailed context and narrowing down the possibilities. This technique also helps improve the accuracy of the chatbot’s response.
 
-# Result: Thus the Prompts were exected succcessfully .
+Conclusion:
+By using these prompting techniques, an AI/Chatbot Developer ensures that the chatbot provides a smooth, efficient, and user-friendly experience. The combination of straightforward prompts for simplicity, tabular format prompting for clarity in options, and preceding question prompting for personalized conversation flow creates a highly functional chatbot capable of handling a wide range of customer queries with ease.
+
+# Result: 
+Thus the Prompts were exected succcessfully .
 
