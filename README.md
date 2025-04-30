@@ -58,18 +58,20 @@ How the AI/Chatbot Developer Uses It:
 Benefit: It keeps the interaction simple and efficient, especially for straightforward customer inquiries or tasks.
 ________________________________________
 2. Tabular Format Prompting
-Definition: This prompting method involves presenting multiple options in a table or list format, making it easy for the user to select an appropriate choice.
-Example in Chatbot Development:
-•	Scenario: The user wants to check the status of their order or report an issue.
-•	Prompt Example:
-o	Chatbot: “Please select one of the following options to continue:
-	[1] Track my order
-	[2] Report a product issue
-	[3] Speak to customer support”
-How the AI/Chatbot Developer Uses It:
-•	The developer incorporates a structured list or table within the chatbot’s response. This format allows the chatbot to guide users to specific actions, reducing ambiguity.
-•	They can integrate options into the conversation flow so that when a user makes a selection, the chatbot knows exactly how to respond.
-Benefit: It organizes complex tasks into simple steps, making it easier for the user to follow through and complete their query. This approach can be especially useful when there are multiple pathways to choose from.
+Aspect	Details
+Prompting Technique	Tabular Format Prompting
+Definition	This method involves presenting multiple options in a table or list format, making it easy for the user to select an appropriate choice.
+Scenario	The user wants to check the status of their order or report an issue.
+Prompt Example	Chatbot: “Please select one of the following options to continue:
+[1] Track my order
+[2] Report a product issue
+[3] Speak to customer support”
+How Developer Uses It	- Structures chatbot responses using list/table format.
+- Links each option to a specific response or action.
+- Ensures clear navigation paths.
+Benefit	- Simplifies complex choices.
+- Reduces user confusion.
+- Increases interaction efficiency by organizing choices clearly.
 ________________________________________
 3. Preceding Question Prompting
 Definition: This technique involves asking a question based on the user’s previous answer, guiding them to a more specific response. It’s a method of narrowing down options based on prior interactions.
